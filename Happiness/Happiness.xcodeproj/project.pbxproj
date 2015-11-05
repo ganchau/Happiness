@@ -14,6 +14,7 @@
 		BDA6A3A71BEBC4900041801C /* HappinessTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6A3A61BEBC4900041801C /* HappinessTests.swift */; };
 		BDA6A3B21BEBC4900041801C /* HappinessUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6A3B11BEBC4900041801C /* HappinessUITests.swift */; };
 		BDA6A3C01BEBC52A0041801C /* HappinessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6A3BF1BEBC52A0041801C /* HappinessViewController.swift */; };
+		BDA6A3C21BEBC6C30041801C /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDA6A3C11BEBC6C30041801C /* FaceView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		BDA6A3B11BEBC4900041801C /* HappinessUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HappinessUITests.swift; sourceTree = "<group>"; };
 		BDA6A3B31BEBC4900041801C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDA6A3BF1BEBC52A0041801C /* HappinessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HappinessViewController.swift; sourceTree = "<group>"; };
+		BDA6A3C11BEBC6C30041801C /* FaceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BDA6A3BF1BEBC52A0041801C /* HappinessViewController.swift */,
+				BDA6A3C11BEBC6C30041801C /* FaceView.swift */,
 				BDA6A3911BEBC4900041801C /* AppDelegate.swift */,
 				BDA6A3951BEBC4900041801C /* Main.storyboard */,
 				BDA6A3981BEBC4900041801C /* Assets.xcassets */,
@@ -258,6 +261,7 @@
 			files = (
 				BDA6A3C01BEBC52A0041801C /* HappinessViewController.swift in Sources */,
 				BDA6A3921BEBC4900041801C /* AppDelegate.swift in Sources */,
+				BDA6A3C21BEBC6C30041801C /* FaceView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +488,7 @@
 				BDA6A3B81BEBC4900041801C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA6A3B91BEBC4900041801C /* Build configuration list for PBXNativeTarget "HappinessTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				BDA6A3BB1BEBC4900041801C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BDA6A3BC1BEBC4900041801C /* Build configuration list for PBXNativeTarget "HappinessUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				BDA6A3BE1BEBC4900041801C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
